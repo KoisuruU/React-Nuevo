@@ -1,0 +1,38 @@
+.itemDetail {
+    width: 100%;
+    max-width: 480px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    padding: 10px;
+    background-color: #94b4e5;
+    border-radius: 20px;
+}
+.itemDetail__img {
+    border-radius: 20px;
+}
+.itemDetail__info {
+    margin-top: 10px;
+    font-size: 15px;
+}
+/* .itemDetail__category {
+    text-transform: capitalize;
+} */
+.itemDetail__title {
+    font-size: 20px;
+    margin: 5px;
+}
+.itemDetail__detail {
+    margin: 5px;
+}
+.itemDetail__addBtn {
+    border: none;
+    background: rgba(0,0,0,0.8);
+    padding: 5px;
+    padding-bottom: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: white;
+}

@@ -1,0 +1,162 @@
+[
+    {
+        "id": "01",
+        "categoria": "GirlGroups",
+        "name": "Billlie - The Billage of Perception : Chapter One",
+        "price": "20",
+        "img": "/images/BilllieBillage.png",
+        "detail": "The debut mini album by Billlie. It was released on November 10, 2021 with Ring x Ring serving as the album's title track."
+    },
+    {
+        "id": "02",
+        "categoria": "GirlGroups",
+        "name": "Billlie - The Collective Soul and Unconscious: Chapter One ",
+        "price": "20",
+        "img": "/images/BilllieTCSU.png",
+        "detail": "The second mini album by Billlie. It was released on February 23, 2022 with GingaMingaYo (the strange world) serving as the album's title track."
+    },
+    {
+        "id": "03",
+        "categoria": "GirlGroups",
+        "name": "Weeekly - We Are",
+        "price": "20",
+        "img": "/images/WeeeklyWeare.png",
+        "detail": "The first mini album by Weeekly. It was released on June 30, 2020 with Tag Me (@Me) serving as the title track."
+    },
+    {
+        "id": "04",
+        "categoria": "GirlGroups",
+        "name": "Weeekly - We Can",
+        "price": "20",
+        "img": "/images/WeeeklyWecan.png",
+        "detail": "The second mini album by Weeekly. It was released on October 13, 2020 with the song Zig Zag serving as the album's title track."
+    },
+    {
+        "id": "05",
+        "categoria": "GirlGroups",
+        "name": "Weeekly - We Play",
+        "price": "20",
+        "img": "/images/WeeeklyWeplay.png",
+        "detail": "The third mini album by Weeekly. It was released on March 17, 2021 with After School serving as the album's title track."
+    },
+    {
+        "id": "06",
+        "categoria": "GirlGroups",
+        "name": "Weeekly - Play Game: Holiday",
+        "price": "20",
+        "img": "/images/WeeeklyPlaygameholiday.png",
+        "detail": "The fourth mini album by Weeekly. It was released on August 4, 2021 with Holiday Party serving as the album's title track."
+    },
+    {
+        "id": "07",
+        "categoria": "GirlGroups",
+        "name": "Weeekly - Play Game: Awake",
+        "price": "18",
+        "img": "/images/WeeeklyPlaygameawake.png",
+        "detail": "The first single album by Weeekly. It was released on March 7, 2022 with Ven Para serving as the album's title track."
+    },
+    {
+        "id": "08",
+        "categoria": "GirlGroups",
+        "name": "StayC - Star To A Young Culture",
+        "price": "18",
+        "img": "/images/StaycSobad.png",
+        "detail": "The debut single album by STAYC. It was released on November 12, 2020 with the song So Bad serving as the album's title track."
+    },
+    {
+        "id": "09",
+        "categoria": "GirlGroups",
+        "name": "StayC - Staydom",
+        "price": "18",
+        "img": "/images/StaycStaydom.png",
+        "detail": "The second single album by STAYC. It was released on April 8, 2021 with ASAP serving as the album's title track."
+    },
+    {
+        "id": "10",
+        "categoria": "GirlGroups",
+        "name": "StayC - Stereotype",
+        "price": "20",
+        "img": "/images/StaycStereotype.png",
+        "detail": "The first mini album by STAYC. It was released on September 6, 2021 with Stereotype serving as the album's title track."
+    },
+    {
+        "id": "11",
+        "categoria": "GirlGroups",
+        "name": "StayC - Young-Luv.com",
+        "price": "950",
+        "img": "/images/StaycYoungluv.png",
+        "detail": "The second mini album by STAYC. It was released on February 21, 2022 with Run2U serving as the album's title track."
+    },
+    {
+        "id": "12",
+        "categoria": "BoyGroups",
+        "name": "Ikon - Flashback",
+        "price": "20",
+        "img": "/images/IkonFlashback.png",
+        "detail": "The fourth mini album by iKON. It was released on May 3, 2022 with But You serving as the album's title track."
+    },
+    {
+        "id": "13",
+        "categoria": "BoyGroups",
+        "name": "Astro - Drive to the Starry Road",
+        "price": "22",
+        "img": "/images/AstroStarryRoad.png",
+        "detail": "The third full-length album by ASTRO. It was released on May 16, 2022 with Candy Sugar Pop serving as the album's title track."
+    },
+    {
+        "id": "14",
+        "categoria": "BoyGroups",
+        "name": "TXT - Minisode 2: Thursday's Child",
+        "price": "20",
+        "img": "/images/TXTMinisode2.png",
+        "detail": "The fourth mini album by TXT. It was released on May 9, 2022 with Good Boy Gone Bad serving as the album's title track."
+    },
+    {
+        "id": "15",
+        "categoria": "BoyGroups",
+        "name": "Seventeen - Attacca",
+        "price": "20",
+        "img": "/images/SeventeenAttacca.png",
+        "detail": "The ninth mini album by SEVENTEEN. It was released on October 22, 2021 with Rock with You serving as the album's title track."
+    },
+    {
+        "id": "16",
+        "categoria": "Soloists",
+        "name": "Yena - ˣ‿ˣ (SMiLEY)",
+        "price": "20",
+        "img": "/images/SmileyYena.png",
+        "detail": "The debut mini album by Yena. It was released on January 17, 2022 with Smiley serving as the album's title track."
+    },
+    {
+        "id": "17",
+        "categoria": "Soloists",
+        "name": "Younha - End Theory: Final Edition",
+        "price": "22",
+        "img": "/images/YounhaET.png",
+        "detail": "A repackage of Younha's sixth full-length album End Theory. It was released on March 30, 2022 with Event Horizon serving as the album's title track."
+    },
+    {
+        "id": "18",
+        "categoria": "Soloists",
+        "name": "Taeyeon - INVU",
+        "price": "22",
+        "img": "/images/TaeyeonINVU.png",
+        "detail": "The third full-length album by Taeyeon. It was released on February 14, 2022 with INVU serving as the album's title track."
+    },
+    {
+        "id": "19",
+        "categoria": "Merch",
+        "name": "Seventeen - Official Lightstick",
+        "price": "40",
+        "img": "/images/SeventeenLightstick.png",
+        "detail": "Seventeen - Official Light Stick Ver.2 Fanlight CARATBONG"
+    },
+    {
+        "id": "20",
+        "categoria": "Merch",
+        "name": "Astro - Official Lightstick",
+        "price": "40",
+        "img": "/images/AstroLightstick.png",
+        "detail": "Astro - Official Light Stick Ver.2 Fanlight Robong"
+    }
+]

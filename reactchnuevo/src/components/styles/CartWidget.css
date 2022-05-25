@@ -1,0 +1,23 @@
+.cartWidget {
+    display: flex;
+    position: relative;
+}
+.cartWidget__icon {
+    color: crimson;
+    background-color: #94b4e5;
+    font-size: 30px;
+}
+.cartWidget__counter {
+    color: white;
+    background-color: red;
+    padding: 0px 0.5rem 0px 0.5rem;
+    border-radius: 50%;
+    position: absolute;
+    line-height: 20px;
+    right: 0;
+    bottom: 0;
+    transform: translateX(8%) translateY(8%);
+    font-size: 13px;
+    font-weight: bold;
+}
+

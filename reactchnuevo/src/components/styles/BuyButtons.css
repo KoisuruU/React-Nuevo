@@ -1,0 +1,16 @@
+.buyButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buyButtons__goToCart, .buyButtons__goToMenu {
+    border: none;
+    background: black;
+    padding: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 15px;
+    color: white;
+    margin: 10px;
+    opacity: 1;
+}
