@@ -1,17 +1,24 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
-import { UseCartContext } from "../context/cartContext.jsx";
-import CartItem from "./CartItem";
+import { UseCartContext } from "../context/cartContext";
+import CartList from "./CartList";
 import "../components/styles/Cart.css";
 
 export default function Cart() {
-    const {cartList, clearCart, totalPrice, totalItems} = UseCartContext();
+    const {totalItems, orderId, createOrder} = UseCartContext();
+    const [orderSent, setOrderSent] = useState(false)
+
+    function sendOrderManage() {
+        setOrderSent(true);
+        createOrder();
+    }
     
     if (!totalItems) {
         return (
             <div className="cart">
-                <h1>Your cart is empty!</h1>
+                {orderSent ? <h1>Order Sent! Order #: {orderId}</h1> : <h1>Your cart is empty</h1>}
                 <Link to='/'>
-                    <button>Continue shopping</button>
+                    <button>Keep shopping</button>
                 </Link>
             </div>
         );
@@ -19,11 +26,13 @@ export default function Cart() {
 
     return (
         <div className="cart">
-            <h1 className="cart__title">Your cart:</h1>
-            {cartList.map(el => <CartItem key={el.id} item={el}/>)}
-            <p>{`Total cost: US$${totalPrice}`}</p>
-            <p>{`Amount of items: ${totalItems}`}</p>
-            <button onClick={clearCart}>Empty your cart</button>
+            <CartList sendOrderManage={sendOrderManage}/>
         </div>
     );
 }
+
+
+
+
+
+

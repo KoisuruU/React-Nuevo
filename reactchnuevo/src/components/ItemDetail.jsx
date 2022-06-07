@@ -18,6 +18,7 @@ export default function ItemDetail({item}) {
             <img className="itemDetail__img" src={item.img} alt="" />
             <div className='itemDetail__info'>
                 <h3 className="itemDetail__title">{item.name}</h3>
+                <p className="itemDetail__stock">{`Stock: ${item.stock}`}</p>
                 <p className="itemDetail__detail">{item.detail}</p>
                 {inputType === 'itemCount' ?
                     <ItemCount initial={1} stock={item.stock} onAdd={onAdd}/>:
