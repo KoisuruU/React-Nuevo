@@ -9,7 +9,7 @@ export default function CartList({sendOrderManage}) {
         <div className="cartList">
             <h1 className="cart__title">Your Order:</h1>
             {cartList.map((el) => <CartItem key={el.id} item={el}/>)}
-            <p>{`Costo total: $${totalPrice}`}</p>
+            <p>{`Total cost: $${totalPrice}`}</p>
             <button onClick={clearCart}>Empty cart</button>
             <button onClick={sendOrderManage}>Send order!</button>
         </div>
