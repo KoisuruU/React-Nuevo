@@ -11,14 +11,6 @@ export default function ItemDetailContainer() {
     const {id} = useParams();
 
     useEffect(() => {
-        // setTimeout(() => {
-        //     fetch("/data/data.json")
-        //     .then(response => response.json())
-        //     .then(itemsList => itemsList.find(el => el.id === id))
-        //     .then(data => setItem(data))
-        //     .catch(err => console.log(err))
-        //     .finally(() => setLoader(false))
-        // }, 300);
         const db = getFirestore();
         const dbQuery = doc(db, 'items', id);
         getDoc(dbQuery)
