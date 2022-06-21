@@ -71,4 +71,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 # ch-react  -->
 
 # Ecommerce de Kpop para ReactJS de Coderhouse
-Proyecto de tienda de Ecommerce para el curso ReactJS de Coderhouse; El home es el listado completo de productos; Hay 4 categorias a las cuales se puede acceder individualmente a traves del Navbar para poder ver solo los productos de esa categoria; Se puede acceder al detalle de cada producto para saber mas del producto.
+Proyecto de tienda de Ecommerce para el curso ReactJS de Coderhouse: ecommerce de venta de discos y merchandise de Kpop, en este caso 18 discos diferentes y 2 accesorios. 
+El proyecto cuenta con 6 secciones:
