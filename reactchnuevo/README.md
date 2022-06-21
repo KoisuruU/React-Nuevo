@@ -1,75 +1,18 @@
- <!-- # Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# ch-react  -->
-
-# Ecommerce de Kpop para ReactJS de Coderhouse
+# Proyecto Final ReactJS - Tomàs Zazzali
 Proyecto de tienda de Ecommerce para el curso ReactJS de Coderhouse: ecommerce de venta de discos y merchandise de Kpop, en este caso 18 discos diferentes y 2 accesorios. 
-El proyecto cuenta con 6 secciones:
+
+El proyecto cuenta con Home, en el cual se ve la tienda completa con todos los productos, 4 secciones para las 4 categorias de productos y una seccion de carrito.
+- Home: La pagina principal presenta un navbar dividido visualmente en 3 partes: A la izquierda se encuentra el logo, que actua de boton para volver al home; en el centro las 4 secciones, las cuales filtran los productos para mostrar solo los de la categoria seleccionada; a la derecha, el logo del carrito actua como boton para acceder al carrito, el cual se activa solo despues de haberle agregado productos. Dandole click a "Add to cart" a algun producto en particular, se puede acceder al Item Detail de cada uno, en el cual se presenta una imagen mas grande del producto en cuestion, asi como tambien la cantidad de stock disponible, y una breve descripcion, ademas de los botones correspondientes para agregar o restar cantidad y poder agregar al carrito el producto.
+
+- Girl Groups: Filtra los productos para SOLO mostrar aquellos que caigan bajo la categoria de "Girl Groups";
+
+- Boy Groups: Filtra los productos para SOLO mostrar aquellos que caigan bajo la categoria de "Boy Groups";
+
+- Soloists: Filtra los productos para SOLO mostrar aquellos que caigan bajo la categoria de "Soloists";
+
+- Merch: Filtra los productos para SOLO mostrar aquellos que caigan bajo la categoria de "Merch";
+
+- Carrito: Se activa solo despues de haberle agregado productos, y muestra el listado de los productos en ello, indicando el nombre, el precio y la cantidad de articulo, y al final calcula el precio total de todos los items; De aqui, hay dos opciones: vaciar el carrito, la cual elimina los productos y en el, y da la posibilidad de volver al home para seguir explorando la tienda; Enviar la orden, generando asì el pedido y otorgando un ID unico de pedido. 
+
+Deploy del sitio mediante Netlify: https://storekpopreactzazzali.netlify.app/
+
